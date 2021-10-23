@@ -840,49 +840,79 @@ header {
     .notification__info p {
       font-size: 14px; } }
 
-.document {
-  background: linear-gradient(90deg, #a7917a, white 100%, #aea69f); }
-  .document__title {
-    padding: 30px 0px 10px 0px; }
-    .document__title h1 {
-      text-align: center;
-      font-size: 36px;
-      font-weight: 500;
-      color: #404040; }
-  .document__info {
-    max-width: 900px;
-    margin: 0 auto; }
-  .document__name {
-    margin: 0px 0px 20px 0px; }
-    .document__name p {
-      text-align: center;
-      font-size: 20px;
-      font-weight: 400;
-      color: #404040; }
-      .document__name p:hover {
-        color: #8d5d32; }
-  .document__line {
-    margin: 60px 0px 0px 0px;
-    height: 2px;
-    background: linear-gradient(to right, #ffffff, #a7917a, #8d5d32, #ffffff) 47% 0%; }
+.document__title {
+  padding: 30px 0px 10px 0px; }
+  .document__title h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #404040; }
 
-.document2__block {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .document2__block svg {
-    width: 40px;
-    padding: 0px 20px 0px 0px; }
-    .document2__block svg:hover {
+.document__info {
+  max-width: 900px;
+  margin: 0 auto; }
+
+.document__name {
+  margin: 0px 0px 20px 0px; }
+  .document__name p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #404040; }
+    .document__name p:hover {
       color: #8d5d32; }
-  .document2__block a {
-    color: #404040;
-    outline: none;
-    font-size: 22px;
+
+.document__line {
+  margin: 60px 0px 0px 0px;
+  height: 2px;
+  background: linear-gradient(to right, #ffffff, #a7917a, #8d5d32, #ffffff) 47% 0%; }
+
+.document2 {
+  background: linear-gradient(90deg, #a7917a, white 100%, #aea69f);
+  background: linear-gradient(90deg, #a7917a, #fff 100%, #aea69f); }
+  .document2__block {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center; }
-    .document2__block a:hover {
-      color: #8d5d32; }
+    .document2__block svg {
+      width: 40px;
+      padding: 0px 20px 0px 0px; }
+      .document2__block svg:hover {
+        color: #8d5d32; }
+    .document2__block a {
+      display: flex;
+      align-items: center;
+      padding: 40px 0px 0px 0px;
+      color: #404040;
+      outline: none;
+      font-size: 24px;
+      font-weight: 600; }
+      .document2__block a:hover {
+        color: #8d5d32; }
+  .document2__project {
+    margin: 0px 0px 40px 0px; }
+
+.document3 {
+  margin: 60px 0 0 0; }
+  .document3__block {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .document3__block svg {
+      width: 40px;
+      padding: 0px 20px 0px 0px; }
+      .document3__block svg:hover {
+        color: #8d5d32; }
+    .document3__block a {
+      color: #404040;
+      outline: none;
+      font-size: 22px;
+      font-weight: 500;
+      display: flex;
+      align-items: center; }
+      .document3__block a:hover {
+        color: #8d5d32; }
 
 @media (max-width: 1024px) {
   .document__line {
@@ -900,4 +930,16 @@ header {
       width: 50px; }
     .document2__block a {
       font-size: 18px;
-      text-align: justify; } }
+      text-align: center; }
+  .document2__project {
+    margin: 0 0 10px 0; }
+    .document2__project img {
+      width: 300px;
+      height: auto; }
+  .document3__block {
+    padding: 0px 20px; }
+    .document3__block svg {
+      width: 50px; }
+    .document3__block a {
+      font-size: 18px;
+      text-align: center; } }
