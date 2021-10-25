@@ -1,5 +1,5 @@
 (function () {
-  const ENDPOINT = "http://localhost:9014/feedback/save";
+  const ENDPOINT = "https://victory-park-54.ru/save";
   const INPUT_INVALID_CLASS = "question__input--invalid";
 
   const ANIMATION_DURATION = 600; // мс
