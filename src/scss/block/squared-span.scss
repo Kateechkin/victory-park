@@ -1,0 +1,58 @@
+.squared-span {
+   font-weight: bold;
+   font-size: 36px;
+   text-align: center;
+   display: block;
+
+   width: 120px;
+   height: 120px;
+   line-height: 120px;
+
+   color: #8d5d32;
+   position: relative;
+
+   &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 3px solid #8d5d32;
+      transform: rotate(15deg);
+      left: 0;
+      transition: 300ms;
+   }
+
+   &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 3px solid #8d5d32;
+      left: 0;
+      transition: 300ms;
+   }
+
+   &:hover::before {
+      transform: rotate(30deg);
+      transition: 300ms;
+   }
+
+   &:hover::after {
+      transform: rotate(45deg);
+      transition: 300ms;
+   }
+}
+@media (max-width: 1024px) {
+   .squared-span {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      &::after {
+         border: 1px solid #8d5d32;
+      }
+
+      &::before {
+         border: 1px solid #8d5d32;
+      }
+   }
+}
