@@ -368,12 +368,6 @@ input[type="checkbox"].visually-hidden {
   border: 2px solid #8d5d32;
   cursor: pointer;
   background: transparent; }
-  .question__form-submit:active {
-    color: white;
-    background: #a7917a; }
-  .question__form-submit:hover {
-    color: white;
-    background: #a7917a; }
 
 .question__input-wrapper {
   display: flex;
@@ -395,12 +389,6 @@ input[type="checkbox"].visually-hidden {
   height: 100%;
   border: 2px solid #d1d2d4;
   outline: none; }
-  .question__input:hover {
-    border: 2px solid #a7917a; }
-  .question__input:active {
-    border: 2px solid #a7917a; }
-  .question__input:focus {
-    border: 2px solid #a7917a; }
   .question__input--textarea {
     padding-top: 5px;
     resize: none; }
